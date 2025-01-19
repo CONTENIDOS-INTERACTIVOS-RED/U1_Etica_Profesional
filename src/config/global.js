@@ -1,7 +1,7 @@
 export default {
   global: {
-    numeroUnidad: '3',
-    tituloUnidad: 'Bioética y sostenibilidad en el desarrollo económico global',
+    numeroUnidad: '1',
+    tituloUnidad: 'Epistemología sobre la ética y la moral',
   },
   menuPrincipal: {
     menu: [
@@ -15,19 +15,20 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Título tema',
+        titulo:
+          'Componentes conceptuales, históricos y teóricos sobre la ética y la moral',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Subtítulo tema',
+            titulo: 'Ética',
             hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Subtítulo tema',
+            titulo: 'Moral',
             hash: 't_1_2',
           },
         ],
@@ -36,49 +37,15 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Título tema',
+        titulo: 'Tipología de la ética y la moral',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
-            titulo: 'Subtítulo tema',
-            hash: 't_2_3',
-          },
-        ],
       },
       {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Título tema',
+        titulo: 'La ética y su relación con otras ciencias.',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.1',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.2',
-            titulo: 'Subtítulo tema',
-            hash: 't_3_2',
-          },
-        ],
       },
       {
         nombreRuta: 'sintesis',
@@ -87,22 +54,11 @@ export default {
       },
     ],
     subMenu: [
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
         titulo: 'Glosario',
       },
-      // {
-      //   nombreRuta: 'complementario',
-      //   icono: 'far fa-folder-open',
-      //   titulo: 'Material complementario',
-      // },
       {
         icono: 'fas fa-book',
         titulo: 'Referencias bibliográficas',
@@ -118,26 +74,82 @@ export default {
   referencias: [
     {
       referencia:
-        'Ardaraz, M. (2002). Teoría de las tres dimensiones de desarrollo sostenible: . Ecosistemas, 11(2)',
+        'Arredondo Campos, J. y Escobar Valenzuela, G. (2017). Ética 1. Grupo Editorial Patria. ',
       link:
-        'https://www.revistaecosistemas.net/index.php/ecosistemas/article/view/614',
+        'https://elibro.net/es/ereader/tecnologicadeloriente/40516?page=21.',
     },
     {
       referencia:
-        'Beltrán, D. J. (2002). La estrategia de desarrollo sostenible de la Unión Europea en el contexto global: de Río a Johannesburgo. ICE. Revista de Economía, (800).',
-      link: '',
+        'Chávez Calderón, P. (2015). Ética (3.ª ed.). Grupo Editorial Patria. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/40400?page=14.',
+    },
+    {
+      referencia:
+        'Torres Hernández, Z. (2015). Introducción a la ética. Grupo Editorial Patria. ',
+      link:
+        'https://elibro.net/es/ereader/tecnologicadeloriente/39401?page=23.',
+    },
+    {
+      referencia: 'Lobberich (s.f.). Johannes Hessen.',
+      link: 'https://www.lobberich.de/kultur/leute/Johannes-Hessen/ ',
     },
   ],
   glosario: [
     {
       termino: 'Bioética',
       significado:
-        'disciplina que estudia las implicaciones éticas, sociales y legales de los avances biológicos y médicos, buscando garantizar que las decisiones en estos campos respeten la dignidad humana, los derechos fundamentales y la justicia social.',
+        'campo interdisciplinario que aborda las implicaciones morales de las prácticas biológicas y médicas, especialmente en contextos de avances científicos..',
     },
     {
-      termino: '<em>Design Thinking</em>',
+      termino: 'Ética del cuidado',
       significado:
-        'método de diseño centrado en el usuario que se basa en la comprensión de las necesidades y expectativas de los clientes, para crear soluciones innovadoras y efectivas.',
+        'teoría que enfatiza la importancia de las relaciones interpersonales y el cuidado hacia los demás en la toma de decisiones morales.',
+    },
+    {
+      termino: 'Ética descriptiva',
+      significado:
+        'rama de la ética que estudia las creencias y prácticas morales en diversas culturas y sociedades, sin emitir juicios sobre su validez.',
+    },
+    {
+      termino: 'Ética normativa',
+      significado:
+        'enfoque que se ocupa de establecer y analizar los fundamentos de nuestras creencias y normas morales, buscando justificar su validez.',
+    },
+    {
+      termino: 'Eudaimonía',
+      significado:
+        'término griego que se traduce como "felicidad" o "florecimiento humano", representando el objetivo último de la vida según Aristóteles.',
+    },
+    {
+      termino: 'Filosofía',
+      significado:
+        'disciplina que se ocupa del estudio de las cuestiones fundamentales relacionadas con la existencia, el conocimiento, la moral, la mente y el lenguaje.',
+    },
+    {
+      termino: 'Metaética',
+      significado:
+        'rama de la ética que investiga la naturaleza, el significado y la justificación de los enunciados morales, así como los métodos de la ética normativa.',
+    },
+    {
+      termino: 'Moral',
+      significado:
+        'conjunto de normas, valores y creencias que guían el comportamiento de los individuos en una sociedad o cultura determinada',
+    },
+    {
+      termino: 'Normas sociales:',
+      significado:
+        'reglas y expectativas establecidas por una sociedad que dictan comportamientos considerados aceptables o inaceptables en un contexto social determinado.',
+    },
+    {
+      termino: 'Sócrates',
+      significado:
+        'filósofo griego considerado el fundador de la ética occidental, conocido por su método de enseñanza basado en el diálogo y el cuestionamiento crítico.',
+    },
+    {
+      termino: 'Virtud',
+      significado:
+        'cualidad moral que se considera buena y deseable, que forma parte del carácter de una persona y se desarrolla a través de la práctica',
     },
   ],
 }
