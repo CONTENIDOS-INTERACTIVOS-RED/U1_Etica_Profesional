@@ -27,6 +27,11 @@
             .col-lg
               p.mb-0 Es importante destacar que la ética política no juzga actos individuales, ya que esta tarea corresponde a la ética personal. Además, evalúa cómo el bien común político refleja tanto el bienestar colectivo como el individual, reconociendo que la vida plena solo se logra en sociedad.
 
+
+    h2(data-aos="fade-left") Ética y psicología
+
+    p(data-aos="fade-left") La relación entre ética y psicología es especialmente relevante en la toma de decisiones y la conducta moral:
+
     .bg-full-width.bg-color-info.mb-5
       .p-4.p-md-5
         .row.justify-content-center.align-items-center.mb-5
@@ -73,7 +78,7 @@
             div.bg-color-white.box-shadow.px-4.py-5.h-100
               img.mx-auto.d-block.mb-4(src="@/assets/curso/tema3/7.svg" alt="" style="width: 90px")
               h5 Cambio social y ética
-              p.mb-0.text-center A medida que evolucionan las sociedades, también lo hacen sus valores éticos..
+              p.mb-0.text-center A medida que evolucionan las sociedades, también lo hacen sus valores éticos.
         
           div.col-lg-4.mb-4(data-aos="zoom-in-up")
             div.bg-color-white.box-shadow.px-4.py-5.h-100

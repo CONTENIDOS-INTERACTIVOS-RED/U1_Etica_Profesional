@@ -99,7 +99,7 @@ export default {
     {
       termino: 'Bioética',
       significado:
-        'campo interdisciplinario que aborda las implicaciones morales de las prácticas biológicas y médicas, especialmente en contextos de avances científicos..',
+        'campo interdisciplinario que aborda las implicaciones morales de las prácticas biológicas y médicas, especialmente en contextos de avances científicos.',
     },
     {
       termino: 'Ética del cuidado',
